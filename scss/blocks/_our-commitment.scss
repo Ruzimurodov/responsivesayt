@@ -1,0 +1,236 @@
+.our-commitment {
+    margin-bottom: 250px;
+}
+
+.our-commitment__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 85px;
+}
+
+.our-commitment__img {
+    width: 445px;
+    height: 520px;
+    object-fit: cover;
+}
+
+.our-commitment__right {
+    padding-left: 80px;
+}
+
+.our-commitment__title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 32px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.our-commitment__text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+
+// for Desktop.
+
+@media only screen and (max-width: 1092px) {
+
+    // .our-commitment__right {
+    //     padding: 0 86px 0 125px;
+    // }
+    
+    
+    .our-commitment__right {
+        margin-left: 50px;
+        padding: 0;
+    }
+
+    .our-commitment__img {
+        width: 405px;
+        height: 520px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
+// for Table.
+
+@media only screen and (max-width: 1024px) {
+
+    .our-commitment {
+        margin-bottom: 304px;
+    }
+
+
+    .our-commitment__inner {
+        padding: 0 55px;
+    }
+}
+
+@media only screen and (max-width: 963px) {
+    .our-commitment__inner {
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 915px) {
+    
+    
+    .our-commitment__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    
+    .our-commitment__img {
+        width: 381px;
+        height: 470px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    .our-commitment__right {
+        width: 100%;
+        max-width: 339px;
+        margin-left: 69px;
+        padding: 8px 0;
+    }
+    
+    .our-commitment__title {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .our-commitment__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 820px) {
+    
+    .our-commitment__img {
+        width: 371px;
+        height: 490px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    
+    .our-commitment__img {
+        width: 320px;
+        height: 490px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 778px) {
+    
+    .our-commitment__img {
+        width: 281px;
+        height: 490px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+
+    .our-commitment__inner {
+        padding: 0;
+    }
+
+    .our-commitment__right {
+        margin-left: 40px;
+    }
+}
+
+// for Mobile phone.
+
+@media only screen and (max-width: 540px) {
+    
+    .our-commitment__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-commitment__right {
+        margin-top: 48px;
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .our-commitment__img {
+        width: 377px;
+        height: 470px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .our-commitment {
+        margin-bottom: 198px;
+    }
+
+    .our-commitment__img {
+        width: 327px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .our-commitment__title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    
+}
+
+@media only screen and (max-width: 358px) {
+    
+    .our-commitment__img {
+        width: 290px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .our-commitment__right {
+        max-width: 290px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+
+    .our-commitment__img {
+        width: 297px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .our-commitment__img {
+        width: 287px;
+        height: 400px;
+        object-fit: cover;
+    }
+}

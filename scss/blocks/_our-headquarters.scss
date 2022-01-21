@@ -1,0 +1,95 @@
+.our-headquarters {
+    margin-bottom: 168px;
+}
+
+.our-headquarters__inner {
+    padding-left: 85px;
+}
+
+.our-headquarters__title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 72px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.our-headquarters__list {
+    display: flex;
+    list-style: none;
+}
+
+.our-headquarters__item {
+    width: 285px;
+}
+
+.our-headquarters__item + .our-headquarters__item {
+    margin-left: 95px;
+}
+
+.our-headquarters__text {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 32px;
+    margin-top: 45px;
+    margin-bottom: 24px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.our-headquarters__address, .our-headquarters__tel {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    text-decoration: none;
+}
+
+
+// for Table.
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 912px) {
+    
+}
+
+@media only screen and (max-width: 820px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 653px) {
+    
+}
+
+@media only screen and (max-width: 540px) {
+    
+}
+
+
+// for Mobile phone.
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+@media only screen and (max-width: 415px) {
+    
+}
+
+@media only screen and (max-width: 390px) {
+    
+}
+
+@media only screen and (max-width: 360px) {
+    
+}

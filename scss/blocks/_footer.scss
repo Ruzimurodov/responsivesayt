@@ -1,0 +1,103 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: #2C343E;
+    margin-bottom: 88px;
+    padding: 47px 85px;
+}
+
+.footer__logo-link {
+    margin-right: 103px;
+}
+
+.footer__list {
+    margin-right: 369px;
+}
+
+.footer__item {
+    vertical-align: middle;
+}
+
+.footer__link {
+    
+    &:hover {
+        color: #FEFCF7;
+    }
+}
+
+.footer__social-networks {
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__social-link:nth-child(2) {
+    margin-right: 19px;
+    margin-left: 19px;
+}
+
+.footer__social-network-logo {
+    fill: #fff;
+    transition: all 0.15s ease;
+    
+    &:hover {
+        fill: #fdd6ba;
+    }
+}
+
+
+
+// for Table.
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 912px) {
+    
+}
+
+@media only screen and (max-width: 820px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 653px) {
+    
+}
+
+@media only screen and (max-width: 540px) {
+    
+}
+
+
+// for Mobile phone.
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+@media only screen and (max-width: 415px) {
+    
+}
+
+@media only screen and (max-width: 390px) {
+    
+}
+
+@media only screen and (max-width: 360px) {
+    
+}
+
+
+
+
